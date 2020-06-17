@@ -1,0 +1,52 @@
+.send-message-form {
+    background: var(--send-message-form);
+    display: flex;
+}
+
+.send-message-form input {
+    width: 100%;
+    padding: 15px 10px;
+    border-style: none;
+    background: var(--send-message-form);
+    font-weight: 200;
+
+}
+
+.send-message-form input:focus {
+    outline-width: 0;
+}
+
+.send-message-form input::placeholder {
+    color: var(--main-text-color);
+}
+
+
+
+
+
+.sendBtn {
+    color: blue;
+    float: left;
+}
+.sendBtn :hover{
+    color: gray;
+}
+
+
+
+
+
+.getEmojiButton {
+    float: right;
+    border: none;
+    margin: 0;
+    cursor: pointer;
+}
+
+.emojiPicker {
+    position: absolute;
+    bottom: 10;
+    right: 0;
+    float: right;
+    margin-left: 200px
+}

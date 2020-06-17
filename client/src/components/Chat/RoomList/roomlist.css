@@ -1,0 +1,64 @@
+.rooms-list {
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: var(--main-color);
+    overflow: scroll;
+    height: 100%;
+}
+
+.rooms-list>ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: scoll;
+    cursor: pointer;
+}
+
+.rooms-list li {
+    margin: 10px 0;
+}
+
+.rooms-list>h3 {
+    margin: 5px 0;
+    color: var(--secondary-color);
+}
+
+.rooms-list .room a {
+    color: var(--secondary-text-color);
+    font-weight: 600;
+    text-decoration: none;
+
+}
+
+.rooms-list .room.active a {
+    color: var(--secondary-color);
+}
+
+
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.rooms-list::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE and Edge */
+.rooms-list {
+    -ms-overflow-style: none;
+}
+
+
+
+.rooms-list .logout .logout-btn {
+    color: rgb(54, 54, 54);
+    margin: 0px;
+    padding: 0px;
+}
+.rooms-list .logout .logout-btn :hover{
+    color: rgb(236, 54, 54);
+    margin: 0px;
+    padding: 0px;
+}
+.rooms-list .logout .logout-txt{
+    margin: 0;
+    margin-bottom: 20px;
+    padding: 0px;
+}
